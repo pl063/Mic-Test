@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(207, 70, 70);
+    font-family: 'Abel';font-size: 22px;
+}
+.tittle{
+    font-weight: bold;
+    font-family: fantasy;
+    margin-left: 40%;
+    margin-top:5%;
+    font-size:35px;
+}
+.head{
+    font-size:45px; 
+    margin-top:-5%;
+    font-weight: bold;
+    margin-left:39%;
+}
+/* picture */
+.picture{
+    margin-left: 35%;
+    
+}
+/* buttons */
+#record{
+    background-color: rgb(240, 161, 65);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+
+    margin-left:41%;
+}
+#record:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+#stop{
+    background-color: rgb(247, 168, 72);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+#stop:hover{
+    background-color: rgb(7, 6, 6);
+    color: rgb(250, 236, 236);
+}
+/* audio player */
+#audio{
+    margin-left: 40%;
+}
